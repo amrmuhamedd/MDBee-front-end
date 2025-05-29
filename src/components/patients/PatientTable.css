@@ -1,0 +1,58 @@
+.patient-table-container {
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.ant-table-header {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 8px 0;
+  background-color: #fafafa;
+}
+
+.virtual-row {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.virtual-row:hover {
+  background-color: #fafafa;
+}
+
+.ant-table-cell {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.patient-table-container .ant-empty {
+  margin: 32px 0;
+}
+.load-more-container {
+  padding: 16px 0;
+  text-align: center;
+  border-top: 1px solid #f0f0f0;
+}
+
+.ant-table-row {
+  display: flex;
+  align-items: center;
+  min-height: 52px;
+}
+
+.ant-table-header {
+  display: flex;
+  align-items: center;
+  min-height: 52px;
+}
+
+@media (max-width: 768px) {
+  .ant-table-header, .ant-table-row {
+    flex-wrap: wrap;
+  }
+  
+  .ant-table-cell {
+    min-width: 120px;
+  }
+}
+
